@@ -5,11 +5,12 @@ public class QuickCheck {
 
   /**
    * Prints all strings longer than 7 characters in a tree.
+   * The strings should be printed in pre-order.
    * Each qualifying string should appear on its own line.
    * 
-   * If the node is null, the method should print nothing.
+   * If the node itself is null, the method should print nothing.
    * 
-   * You can assume that there are no null strings stored in the tree nodes.
+   * You can assume that there are no null Strings stored in the tree nodes.
    *
    * @param node the root node of the binary tree
    */
@@ -17,12 +18,14 @@ public class QuickCheck {
   }
 
   /**
-   * Returns the sum of all nodes holding odd numbers
+   * Returns the sum of all nodes holding odd numbers.
    * 
-   * If the node is null, return 0.
+   * If the node itself is null, return 0.
+   * 
+   * You can assume there are no null Integers held in the values.
    *
    * @param node the root node of the binary tree
-   * @return the sum of all odd-valued nodes, interpreted from their string values
+   * @return the sum of all odd-valued nodes
    */
   public static int oddSum(TreeNode<Integer> node) {
       return -1;
